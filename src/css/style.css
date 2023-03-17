@@ -24,6 +24,31 @@ body {
   scrollbar-width: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .bg-dark-blue {
   background-color: var(--dark-blue);
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.badge {
+  min-width: 200px;
+  min-height: 75px;
+}
+
+.badge img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .badge {
+    min-width: 175px;
+    min-height: 70px;
+  }
 }
