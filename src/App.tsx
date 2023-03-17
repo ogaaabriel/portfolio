@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer";
 
 const App = (): JSX.Element => {
   return (
@@ -15,7 +16,7 @@ const App = (): JSX.Element => {
       <Skills />
       <Projects />
       <ContactForm />
-      <div>Footer</div>
+      <Footer />
     </>
   );
 };
