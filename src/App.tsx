@@ -5,13 +5,14 @@ import "./css/style.css";
 
 import Header from "./components/Header";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 const App = (): JSX.Element => {
   return (
     <>
       <Header />
       <Skills />
-      <div>Projects</div>
+      <Projects />
       <div>Contact</div>
       <div>Footer</div>
     </>

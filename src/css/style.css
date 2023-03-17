@@ -46,6 +46,19 @@ ul {
   height: 100%;
 }
 
+.card-size{
+    max-width: 310px;
+    height: 460px;
+}
+
+.card-header img{
+    width: 100%;
+}
+
+.card-body a{
+    width: fit-content;
+}
+
 @media screen and (max-width: 500px) {
   .badge {
     min-width: 175px;
