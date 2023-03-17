@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   font-family: "Ubuntu Mono", monospace;
+  transition: ease-in 0.25s;
   --dark-blue: #0f3460;
 }
 
@@ -46,17 +47,17 @@ ul {
   height: 100%;
 }
 
-.card-size{
-    max-width: 310px;
-    height: 460px;
+.card-size {
+  max-width: 310px;
+  height: 460px;
 }
 
-.card-header img{
-    width: 100%;
+.card-header img {
+  width: 100%;
 }
 
-.card-body a{
-    width: fit-content;
+.card-body a {
+  width: fit-content;
 }
 
 @media screen and (max-width: 500px) {

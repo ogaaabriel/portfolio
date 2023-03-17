@@ -48,7 +48,7 @@ const skills: Skill[] = [
 
 const Skills = (): JSX.Element => {
   return (
-    <div className="container p-4 p-sm-5 py-5">
+    <div className="container p-4 p-sm-5 py-5" id="habilidades">
       <h2 className="text-center mb-4 display-5">Minhas Habilidades</h2>
       <div className="d-flex flex-wrap gap-3 justify-content-center">
         {skills.map((skill) => (

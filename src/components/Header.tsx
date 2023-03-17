@@ -1,6 +1,9 @@
 const Header = (): JSX.Element => {
   return (
-    <div className="vh-100 d-flex align-items-center justify-content-center text-center bg-gradient bg-dark-blue text-light p-4">
+    <div
+      className="vh-100 d-flex align-items-center justify-content-center text-center bg-gradient bg-dark-blue text-light p-4"
+      id="inicio"
+    >
       <div>
         <h1 className="display-2">Gabriel Rodrigues</h1>
         <h2 className="display-4">Desenvolvedor de software</h2>

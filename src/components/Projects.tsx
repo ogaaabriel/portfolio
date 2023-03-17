@@ -31,7 +31,7 @@ const projects: Project[] = [
 
 const Projects = (): JSX.Element => {
   return (
-    <div className="bg-dark-blue p-4 p-sm-5 py-5">
+    <div className="bg-dark-blue p-4 p-sm-5 py-5" id="projetos">
       <div className="container">
         <h2 className="text-center text-light display-5 mb-4">
           Projetos Pessoais

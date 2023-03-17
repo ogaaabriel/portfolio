@@ -7,7 +7,7 @@ const ContactForm = (): JSX.Element => {
   const [result, setResult] = React.useState(false);
 
   return (
-    <div className="container p-4 p-sm-5 py-5">
+    <div className="container p-4 p-sm-5 py-5" id="contato">
       <h2 className="display-5 text-center">Entre em contato</h2>
       <form
         className="mb-4"

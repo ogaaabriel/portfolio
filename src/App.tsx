@@ -8,10 +8,12 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 const App = (): JSX.Element => {
   return (
     <>
+      <Navbar />
       <Header />
       <Skills />
       <Projects />
