@@ -1,4 +1,6 @@
 import placeholder from "../img/placeholder.png";
+import learningLogs from "../img/learning_logs.webp";
+import tutorialsApi from "../img/tutorialsApi.png";
 
 interface Project {
   title: string;
@@ -11,14 +13,15 @@ const projects: Project[] = [
   {
     title: "Learning Logs",
     description:
-      "Django app to help track learning. Create a list of topics you are studying, take notes and share it with other users.",
-    img: placeholder,
+      "Aplicativo Django para ajudar a acompanhar o aprendizado. Crie uma lista de tópicos, faça anotações e compartilhe com outros usuários.",
+    img: learningLogs,
     url: "https://github.com/ogaaabriel/learning_logs",
   },
   {
     title: "Tutorials API",
-    description: "Django REST API to share links to tutorials",
-    img: placeholder,
+    description:
+      "API construída com Django REST para compartilhar links para tutoriais.",
+    img: tutorialsApi,
     url: "https://github.com/ogaaabriel/tutorials_api",
   },
   {
