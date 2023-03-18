@@ -30,7 +30,7 @@ ul {
 }
 
 .bg-dark-blue {
-  background-color: var(--dark-blue);
+  background: var(--dark-blue);
 }
 
 .container {
@@ -38,8 +38,8 @@ ul {
 }
 
 .badge {
-  min-width: 200px;
-  min-height: 75px;
+  width: 150px;
+  height: 55px;
 }
 
 .badge img {
@@ -58,6 +58,11 @@ ul {
 
 .card-body a {
   width: fit-content;
+}
+
+.line {
+  border-bottom: 2px dotted var(--dark-blue);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 500px) {
