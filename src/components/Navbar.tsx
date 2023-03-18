@@ -1,6 +1,9 @@
 import React from "react";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
-const Navbar = (): JSX.Element => {
+const Navigation = (): JSX.Element => {
   const [navDark, setNavDark] = React.useState(window.scrollY > 100);
 
   React.useEffect(() => {
@@ -14,47 +17,28 @@ const Navbar = (): JSX.Element => {
   });
 
   return (
-    <nav
-      className={
-        (navDark && "bg-dark") +
-        " navbar navbar-dark navbar-expand-lg px-5 fixed-top"
-      }
+    <Navbar
+      fixed="top"
+      expand="lg"
+      className={(navDark && "bg-dark") + " navbar-dark px-5"}
     >
-      <a className="navbar-brand" href="#inicio">
-        Gabriel Rodrigues
-      </a>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li className="nav-item">
-            <a className="nav-link" href="#sobre">
-              Sobre
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#projetos">
-              Projetos
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#contato">
-              Contato
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+      <Navbar.Brand href="#inicio">Gabriel Rodrigues</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="ms-auto">
+          <Nav.Link active={false} href="#sobre">
+            Sobre
+          </Nav.Link>
+          <Nav.Link active={false} href="#projetos">
+            Projetos
+          </Nav.Link>
+          <Nav.Link active={false} href="#contato">
+            Contato
+          </Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 };
 
-export default Navbar;
+export default Navigation;
