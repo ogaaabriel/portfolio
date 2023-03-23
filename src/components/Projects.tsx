@@ -1,6 +1,7 @@
 import placeholder from "../img/placeholder.png";
 import learningLogs from "../img/learning_logs.webp";
 import tutorialsApi from "../img/tutorialsApi.png";
+import bookLoanManager from "../img/book_loan_manager.jpg";
 
 interface Project {
   title: string;
@@ -18,17 +19,18 @@ const projects: Project[] = [
     url: "https://github.com/ogaaabriel/learning_logs",
   },
   {
+    title: "Book Loan Manager",
+    description:
+      "Aplicativo Django para realizar o gerencimento de empréstimos de livros.",
+    img: bookLoanManager,
+    url: "https://github.com/ogaaabriel/book_loan_manager",
+  },
+  {
     title: "Tutorials API",
     description:
       "API construída com Django REST para compartilhar links para tutoriais.",
     img: tutorialsApi,
     url: "https://github.com/ogaaabriel/tutorials_api",
-  },
-  {
-    title: "Em desenvolvimento",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    img: placeholder,
-    url: "#",
   },
 ];
 
