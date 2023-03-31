@@ -1,7 +1,7 @@
 const Header = (): JSX.Element => {
   return (
     <div
-      className="vh-100 d-flex align-items-center justify-content-center text-center bg-gradient bg-dark-blue text-light p-4"
+      className="vh-100 d-flex align-items-center justify-content-center text-center bg-dark-blue bg-gradient text-light p-4"
       id="inicio"
     >
       <div>

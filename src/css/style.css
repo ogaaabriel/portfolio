@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Ubuntu Mono", monospace;
+  font-family: "Poppins", sans-serif;
   transition: ease-in 0.25s;
-  --dark-blue: #0f3460;
+  --dark-blue: #0b2f5c;
 }
 
 a,
@@ -30,6 +30,10 @@ ul {
 
 .bg-dark-blue {
   background: var(--dark-blue);
+}
+
+.bg-whitesmoke {
+  background-color: whitesmoke;
 }
 
 .container {
@@ -64,6 +68,10 @@ ul {
 .line {
   border-bottom: 2px dotted var(--dark-blue);
   margin: 0 auto;
+}
+
+.vh-min-100 {
+  min-height: 100vh;
 }
 
 @media screen and (max-width: 500px) {

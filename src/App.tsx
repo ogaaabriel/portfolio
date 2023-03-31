@@ -16,10 +16,17 @@ const App = (): JSX.Element => {
     <>
       <Navigation />
       <Header />
-      <About />
-      <Skills />
-      <Projects />
-      <ContactForm />
+      <div className="bg-whitesmoke">
+        <div
+          id="sobre"
+          className="vh-min-100 d-flex flex-column justify-content-center"
+        >
+          <About />
+          <Skills />
+        </div>
+        <Projects />
+        <ContactForm />
+      </div>
       <Footer />
     </>
   );

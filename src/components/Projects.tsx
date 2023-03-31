@@ -14,7 +14,7 @@ const projects: Project[] = [
   {
     title: "Learning Logs",
     description:
-      "Aplicativo Django para ajudar a acompanhar o aprendizado. Crie uma lista de tópicos, faça anotações e compartilhe com outros usuários.",
+      "Aplicativo Django para fazer anotações sobre tópicos de estudo",
     img: learningLogs,
     url: "https://github.com/ogaaabriel/learning_logs",
   },
@@ -36,9 +36,9 @@ const projects: Project[] = [
 
 const Projects = (): JSX.Element => {
   return (
-    <div className="bg-dark-blue p-4 p-sm-5 py-5" id="projetos">
+    <div className="p-4 p-sm-5 py-5 vh-min-100 d-flex align-items-center bg-dark-blue bg-gradient" id="projetos">
       <div className="container">
-        <h2 className="text-center text-light display-5 mb-4">
+        <h2 className="text-center display-5 mb-5 text-white">
           Projetos Pessoais
         </h2>
         <div className="d-flex align-items-center justify-content-center gap-3 flex-wrap">
