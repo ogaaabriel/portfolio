@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="pt-br">
       <Head>
         <title>Gabriel Rodrigues</title>
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
       </Head>
       <body>
         <Main />
