@@ -1,3 +1,3 @@
 # [Portfolio](https://ogaaabriel.github.io/portfolio/)
 
-Portfolio built with React and Bootstrap
+Portfolio built with Next JS and Bootstrap
