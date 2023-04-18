@@ -8,13 +8,13 @@ const Navbar = ({ transparent = false }: { transparent?: boolean }) => {
       <Navigation
         expand="lg"
         className={
-          "px-5 py-3 fixed-top" +
+          "px-5 py-2 fixed-top fw-bold" +
           ((!transparent && " navbar-light bg-light shadow-sm") ||
             " navbar-dark")
         }
       >
-        <Link className="navbar-brand" href={"/"}>
-          Gabriel Rodrigues
+        <Link className="navbar-brand fw-bold fs-4" href={"/"}>
+          GR
         </Link>
         <Navigation.Toggle aria-controls="basic-navbar-nav" />
         <Navigation.Collapse id="basic-navbar-nav">
